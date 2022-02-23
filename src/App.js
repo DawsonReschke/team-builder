@@ -8,8 +8,15 @@ import './App.css';
 import styled from 'styled-components';
 
 const ContainerDiv = styled.div`
+display:block;
+font-size:2.2rem;
+width:50%;
+margin: 2% auto;
 border:1px solid black;
+border-radius:10px;
 padding:1%;
+box-shadow:1px 1px 10px grey;
+
 `
 
 const currentGroups = [{groupId:1313, groupName:'React Study Group',members:[{username:'Dawson',email:'dawsonreschke@gmail.com'}],messages:[{email:'dawsonreschke@gmail.com',message:'hello world'}]},{groupId:1024,groupName:'Vue Study Group',members:[],messages:[]}]
